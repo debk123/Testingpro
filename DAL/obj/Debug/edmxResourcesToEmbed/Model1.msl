@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DecDb23NewModelStoreContainer" CdmEntityContainer="DecDb23NewEntities">
+    <EntitySetMapping Name="Cars">
+      <EntityTypeMapping TypeName="DecDb23NewModel.Car">
+        <MappingFragment StoreEntitySet="Car">
+          <ScalarProperty Name="cid" ColumnName="cid" />
+          <ScalarProperty Name="cname" ColumnName="cname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="DecDb23NewModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Pid" ColumnName="Pid" />
+          <ScalarProperty Name="Pname" ColumnName="Pname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

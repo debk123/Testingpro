@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DAL.Car>
+
+@{
+    ViewBag.Title = "ShowAllCars";
+}
+
+<h2>ShowAllCars</h2>
+
+<p>
+    @Html.ActionLink("Add New Car", "AddCar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.cid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cname)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.cid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cname)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditCar", new {  id=item.cid }) |
+            @Html.ActionLink("Details", "ShowCarById", new { id = item.cid }) |
+            @Html.ActionLink("Delete", "DeleteCar", new { id = item.cid })
+        </td>
+    </tr>
+}
+
+</table>

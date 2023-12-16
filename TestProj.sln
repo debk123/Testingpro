@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UILayer", "UILayer\UILayer.csproj", "{21735419-1D89-4C89-9399-B6E581BFDE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{51D27694-DCD9-4CCE-947B-6748F42FCBE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProj", "TestProj\TestProj.csproj", "{754693DA-7654-4B9C-B318-0A7F48775816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21735419-1D89-4C89-9399-B6E581BFDE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21735419-1D89-4C89-9399-B6E581BFDE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21735419-1D89-4C89-9399-B6E581BFDE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21735419-1D89-4C89-9399-B6E581BFDE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D27694-DCD9-4CCE-947B-6748F42FCBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D27694-DCD9-4CCE-947B-6748F42FCBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D27694-DCD9-4CCE-947B-6748F42FCBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D27694-DCD9-4CCE-947B-6748F42FCBE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754693DA-7654-4B9C-B318-0A7F48775816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754693DA-7654-4B9C-B318-0A7F48775816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754693DA-7654-4B9C-B318-0A7F48775816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754693DA-7654-4B9C-B318-0A7F48775816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {899F82FE-73EF-4A10-8021-5B6BD2B5022C}
+	EndGlobalSection
+EndGlobal
